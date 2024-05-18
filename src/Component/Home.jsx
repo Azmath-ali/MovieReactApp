@@ -35,9 +35,6 @@ const Home = () => {
   }
 
 
-
-  
-  
   
   
   // For HorizontalSlide.jsx
@@ -61,10 +58,6 @@ const Home = () => {
 
 
 
-
-
-
-
   useEffect(()=>{
 
     !wallpaper && headerWallpapers()
@@ -77,8 +70,6 @@ const Home = () => {
 
 
 
-
-   
 
   return   wallpaper && trending ? (
     <>

@@ -5,7 +5,7 @@ const SideNav = () => {
   return (
     <div className='w-[20%] h-full bg-[#1F1E24] border-r-2 border-zinc-400 p-8'>
 
-        <h1 className='text-white font-bold'><i className="text-[#6556CD] ri-tv-fill"></i> SSCDB.</h1>
+        <h1 className='text-white font-bold'><i className="text-[#6556CD] ri-tv-fill"></i> SCSDB.</h1>
 
         <nav className='flex flex-col gap-3 mt-6 text-white'>
 
