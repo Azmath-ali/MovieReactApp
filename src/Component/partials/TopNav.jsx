@@ -8,7 +8,7 @@ const TopNav = () => {
 
     const [searches, setSearches] = useState([])
 
-    console.log(query)
+    console.log(searches)
 
     const GetSearch =  () =>{
 
