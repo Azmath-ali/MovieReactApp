@@ -28,7 +28,7 @@ const Trailer = () => {
         
         <ReactPlayer
         controls
-        width={1350}
+        width={1450}
         height={760}
         
 
