@@ -8,6 +8,8 @@ const TopNav = () => {
 
     const [searches, setSearches] = useState([])
 
+    console.log(searches)
+
     const GetSearch =  () =>{
 
         axios.get(`search/multi?query=${query}`)
