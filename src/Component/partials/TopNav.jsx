@@ -27,7 +27,7 @@ const TopNav = () => {
 
   return (
     <>
-    <div className=' h-[8%] p-10 flex items-center pl-36  '>
+    <div className=' h-[8%] p-10 flex items-center pl-36 '>
         
         <i className="text-white text-2xl ri-search-line"></i>
 
@@ -54,7 +54,7 @@ const TopNav = () => {
         
         } alt=""/>
 
-            <span>{val.title || val.original_title || val.original_name || val.name}</span>
+            <h1>{val.title || val.original_title || val.original_name || val.name}</h1>
         </Link> 
     
     
