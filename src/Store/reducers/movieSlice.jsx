@@ -15,7 +15,7 @@ export const movieSlice = createSlice({
         state.information = action.payload
       },
 
-      removemovie :(state)=>{
+      removemovie : (state)=>{
 
         state.information = null
       }
