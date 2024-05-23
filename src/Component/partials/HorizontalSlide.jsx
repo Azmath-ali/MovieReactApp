@@ -14,8 +14,7 @@ const HorizontalSlide = ({data}) => {
             <Link to={`/${val.media_type}/details/${val.id}`} key={index} className=' min-w-[17%] h-[33vh] bg-zinc-900  '>
 
 
-
-            <div className='text-white w-full h-full text-center    '>
+            <div className='text-white w-full h-full text-center'>
                 <img className='w-full h-[50%] object-cover' 
 
                 src={ val.backdrop_path || val.profile_path ?

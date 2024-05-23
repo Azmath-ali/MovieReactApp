@@ -90,9 +90,7 @@ const Home = () => {
       <DropDown title='Filter' options = {["all", "tv", "movie"]} func ={(e)=> setCategory(e.target.value)}  />
             
     </div>
-
-
-
+     
 
     <HorizontalSlide data = {trending} />
 

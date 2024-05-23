@@ -10,11 +10,7 @@ const DropDown = ({title, options,func}) => {
 
         <option key={index} value={val}> {val.toUpperCase()} </option>
         
-        
-        
         )}
-
-       
 
       </select>
 

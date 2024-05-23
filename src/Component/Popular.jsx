@@ -50,7 +50,7 @@ const Popular = () => {
         }
         else{
             setPage(1)
-            setPopular("")
+            setPopular([])
             GetPopular()
         }
 

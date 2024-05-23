@@ -8,7 +8,7 @@ const TopNav = () => {
 
     const [searches, setSearches] = useState([])
 
-    console.log(searches)
+    // console.log(searches)
 
     const GetSearch =  () =>{
 
@@ -17,10 +17,8 @@ const TopNav = () => {
         .then((res)=> setSearches(res.data.results))
 
         .catch((err)=> console.log(err))
-
     }
        
-
     useEffect(()=> GetSearch(), [query] )
 
 
@@ -59,13 +57,8 @@ const TopNav = () => {
             <h1>{val.title || val.original_title || val.original_name || val.name}</h1>
         </Link> 
     
-    
-        
         )}
             
-       
-        
-     
     </div>
 
     </div>

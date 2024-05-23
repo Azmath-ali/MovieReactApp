@@ -22,7 +22,8 @@ const Header = ({data}) => {
         <h1 className='text-4xl mb-5 font-black text-white'>{data.title || data.name || data.original_name || data.original_title}</h1>
 
         <p className='w-[50%] mb-5 text-white'>{data.overview.slice(0,200)}... 
-        <Link to={`/${data.media_type}/details/${data.id}`} className='text-blue-400 font-black'> more </Link>
+        <Link to={`/${data.media_type}/details/${data.id}`} className='text-blue-400 font-black'> 
+        more </Link>
         
         
         </p>
@@ -45,12 +46,6 @@ const Header = ({data}) => {
         className='w-fit mt-4 p-2 bg-[#6556CD]'>Watch Trailer</Link>
     
         
-
-
-
-
-
-
 
     </div>
   )

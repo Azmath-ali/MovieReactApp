@@ -96,6 +96,7 @@ const Trending = () => {
             <div className=' w-[80%] flex items-center justify-between'>
 
                 <div className='w-[60%]'>
+                  
                 <TopNav />
 
                 </div>
