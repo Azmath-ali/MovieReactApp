@@ -78,14 +78,6 @@ const Trending = () => {
 
 
 
-
-
-
-
-
-
-
-
   return trending.length > 0 ?
     <div className='w-screen h-fit bg-[#1F1E24] text-white font-black   '>
         
